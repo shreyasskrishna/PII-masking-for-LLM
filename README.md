@@ -2,6 +2,21 @@
 
 A customer support chatbot that protects user privacy by masking PII before sending to LLMs.
 
+## 🌟 Introduction
+This intelligent chatbot acts as a secure shield for your customer data. When a user sends a message containing private details (like emails or phone numbers), the system automatically detects and masks this information before sending the query to an AI for processing. Once the AI responds, the system intelligently restores the original details, ensuring a seamless experience without sensitive data ever being exposed to third-party AI services.
+
+## 🚀 Advantages
+- **Zero Data Leakage**: Sensitive PII (Personally Identifiable Information) never leaves your local environment unmasked.
+- **Regulatory Compliance**: Helps meet GDPR and CCPA requirements by minimizing data sharing with external processors.
+- **Model Agnostic**: Can safely use any powerful public LLM (like Groq, OpenAI, or Anthropic) without privacy concerns.
+- **Seamless UX**: Users get personalized, accurate responses without knowing their data was masked in the background.
+
+## 💡 Use Cases
+- **Customer Support**: Handle billing disputes and account recovery without exposing credit card limits or user IDs.
+- **Healthcare Booking**: Schedule appointments while keeping patient contact details private.
+- **HR & Internal Ops**: Automate employee queries involving payroll or personal records securely.
+- **Financial Advisory**: Discussing general portfolio strategies without revealing specific account numbers or balances.
+
 ![Application Screenshot](demo_screenshot.png)
 
 Run:
